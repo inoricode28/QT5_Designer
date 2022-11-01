@@ -9,4 +9,6 @@ class Loginn(QtWidgets.QMainWindow):#Boton es cambiable
         
         super(Loginn, self).__init__(parent)#Boton es cambiable
         self.venPri = Ui_MainWindow()
-        self.venPri.setupUi(self)
+        self.venPri.setupUi(self)  
+        self.venPri.pushButton_5.clicked.connect(lambda: self.close())
+    
