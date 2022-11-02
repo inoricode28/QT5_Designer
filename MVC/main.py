@@ -15,7 +15,7 @@ import sys
 #from PySide2 import QtWidgets
 #from PySide2 import QtCore
 from controlador.botones import Loginn
-
+#Una modificacion
 if __name__=='__main__':
     app = QtWidgets.QApplication(sys.argv)
     ventana_ses = Loginn()#Loginn es Cambiable
