@@ -17,7 +17,7 @@ from controlador.botones import Clark #tambien se modificable
 #Una modificacion
 if __name__=='__main__':
     app = QtWidgets.QApplication(sys.argv)
-    ventana_ses = Clark()#Loginn es Cambiable
+    ventana_ses = Clark()#Clark es modificable
     #ventana_ses = Tranferencia()
     ventana_ses.show()
     sys.exit(app.exec_())
