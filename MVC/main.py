@@ -14,11 +14,11 @@ import sys
 # ------ Importacion PySide2 ------
 #from PySide2 import QtWidgets
 #from PySide2 import QtCore
-from controlador.botones import Loginn
+from controlador.botones import Clark #tambien se modificable
 #Una modificacion
 if __name__=='__main__':
     app = QtWidgets.QApplication(sys.argv)
-    ventana_ses = Loginn()#Loginn es Cambiable
+    ventana_ses = Clark()#Loginn es Cambiable
     #ventana_ses = Tranferencia()
     ventana_ses.show()
     sys.exit(app.exec_())

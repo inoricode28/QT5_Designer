@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'botonesQZfNIm.ui'
+## Form generated from reading UI file 'botonescPFgQQ.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -35,6 +35,12 @@ class Ui_MainWindow(object):
         self.pushButton_5 = QPushButton(self.centralwidget)
         self.pushButton_5.setObjectName(u"pushButton_5")
         self.pushButton_5.setGeometry(QRect(220, 40, 251, 91))
+        self.pushButton_6 = QPushButton(self.centralwidget)
+        self.pushButton_6.setObjectName(u"pushButton_6")
+        self.pushButton_6.setGeometry(QRect(30, 390, 151, 141))
+        font = QFont()
+        font.setPointSize(36)
+        self.pushButton_6.setFont(font)
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -49,5 +55,6 @@ class Ui_MainWindow(object):
         self.pushButton_3.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
         self.pushButton_4.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
         self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
+        self.pushButton_6.setText(QCoreApplication.translate("MainWindow", u"CLARK", None))
     # retranslateUi
 
