@@ -18,7 +18,7 @@ class Clark(QtWidgets.QMainWindow):#Boton es cambiable
         #self.ventPrin.pushButton_5.clicked.connect(lambda: self.close())
         #self.ventPrin.pushButton_6.clicked.connect(self.cerrar)
         loadJsonStyle(self, self.ventPrin)
-        
+
         self.ventPrin.pushButton.setObjectTheme(1)
         self.ventPrin.pushButton_2.setObjectTheme(2)
         self.ventPrin.pushButton_3.setObjectTheme(3)
@@ -27,10 +27,12 @@ class Clark(QtWidgets.QMainWindow):#Boton es cambiable
         self.ventPrin.pushButton_6.setObjectTheme(6)
         self.ventPrin.pushButton_7.setObjectTheme(11)
         self.ventPrin.pushButton_5.setObjectTheme(10)
+        self.ventPrin.pushButton_8.setObjectTheme(12)
+        self.ventPrin.pushButton_9.setObjectTheme(13)
         self.ventPrin.pushButton.setObjectCustomTheme("#fff", "#000")
         self.ventPrin.pushButton.setObjectAnimateOn("hover")
         self.ventPrin.pushButton_7.setObjectAnimateOn("click")
-        #self.ui.pushButton._animation.setEasingCurve(QtCore.QEasingCurve.InOutElastic)
+        #self.ventPrin.pushButton._animation.setEasingCurve(QtCore.QEasingCurve.InOutElastic)
         self.ventPrin.pushButton._animation.setEasingCurve(QtCore.QEasingCurve.InQuad)
     
     #def cerrar(self):

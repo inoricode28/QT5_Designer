@@ -4,8 +4,7 @@
 # run "pip install --upgrade QT-PyQt-PySide-Custom-Widgets"
 # to install any updates
 from Custom_Widgets.Widgets import *
-import iconify as ico
-from iconify.qt import QtGui, QtWidgets, QtCore
+
 from PySide2.QtCore import *
 ########################################################################
 
