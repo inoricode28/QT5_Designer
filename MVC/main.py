@@ -7,7 +7,7 @@ from Custom_Widgets.Widgets import *
 
 from PySide2.QtCore import *
 ########################################################################
-
+#QCustomQPushButton esto se pone en la particula
 # aqui se ejecuta todo el programa
 import sys
 # ------ Importacion PySide2 ------

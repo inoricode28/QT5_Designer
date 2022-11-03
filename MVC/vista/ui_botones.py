@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'botonesKasCha.ui'
+## Form generated from reading UI file 'botonesteVHci.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -11,16 +11,13 @@
 from PySide2.QtCore import *
 from PySide2.QtGui import *
 from PySide2.QtWidgets import *
-########################################################################
-# IMPORT CUSTOM BUTTONS FILE
 from Custom_Widgets.Widgets import *
-########################################################################
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(837, 427)
+        MainWindow.resize(816, 394)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.pushButton = QCustomQPushButton(self.centralwidget)
@@ -65,11 +62,11 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
-        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
-        self.pushButton_2.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
-        self.pushButton_3.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
-        self.pushButton_4.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
-        self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"PushButton", None))
+        self.pushButton.setText("")
+        self.pushButton_2.setText("")
+        self.pushButton_3.setText("")
+        self.pushButton_4.setText("")
+        self.pushButton_5.setText("")
         self.pushButton_6.setText("")
         self.pushButton_7.setText("")
         self.pushButton_8.setText("")

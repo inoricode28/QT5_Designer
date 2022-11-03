@@ -5,7 +5,7 @@ from iconify.qt import QtGui, QtWidgets, QtCore
 from Custom_Widgets.Widgets import *
 #Vista.ui_botones eso signidica Carpeta.archivo
 #from vista.ui_botones import Ui_MainWindow #Ui_MainWindow es la clase que se encuentra en la particula
-from vista.ui_botones import *
+from vista.ui_botones import Ui_MainWindow
 #El nombre de la clase es cambiable
 #Driver el controlador
 class Clark(QtWidgets.QMainWindow):#Boton es cambiable
